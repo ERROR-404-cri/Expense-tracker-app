@@ -1,0 +1,18 @@
+.balance {
+  text-align: left;
+  text-transform: uppercase;
+  background-color: rgb(231, 240, 232);
+}
+
+.balance > p {
+  margin: 0;
+}
+@media screen and (max-width: 724px) {
+  .balance > p {
+    text-align: center;
+  }
+}
+
+.balanceAmount {
+  font-size: 32px;
+}

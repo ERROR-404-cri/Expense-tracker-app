@@ -1,0 +1,41 @@
+.whiteBox {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  box-shadow: 1px 1px 10px #bfbdbd;
+}
+
+@media screen and (max-width: 724px) {
+  .whiteBox {
+    flex-direction: column;
+    align-items: center;
+    max-height: 200px;
+    /* overflow-x: scroll; */
+  }
+  hr {
+    display: none;
+  }
+}
+.incomeBox {
+  display: block;
+  width: 50%;
+  padding: 2px auto;
+  text-transform: uppercase;
+  font-size: small;
+}
+.whiteBox .priceBox {
+  display: block;
+  padding: 5px;
+  font-size: medium;
+}
+.greenBox {
+  color: rgb(0, 165, 0);
+}
+.redBox {
+  color: rgb(240, 68, 68);
+}
+hr {
+  margin-top: 20px;
+  height: 30px;
+}

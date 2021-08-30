@@ -1,0 +1,44 @@
+.historyList {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid rgb(189, 187, 187);
+  padding: 5px;
+  font-size: small;
+  box-shadow: 0.5px 0.5px 3px #bfbdbd;
+}
+@media screen and (max-width: 724px) {
+  .historyList {
+    display: block;
+  }
+  .historyList span {
+    display: block;
+    /* overflow-x: scroll; */
+    padding-bottom: 5px;
+  }
+  span.delete {
+    display: inline;
+    margin: 0 5px 0 1px;
+    cursor: pointer;
+  }
+}
+
+.green {
+  border-right: 4px solid rgb(83, 223, 56);
+}
+.red {
+  border-right: 4px solid rgb(236, 53, 21);
+}
+
+.Container {
+  max-height: 210px;
+  overflow-y: scroll;
+}
+.delete {
+  display: none;
+}
+.historyList:hover .delete {
+  display: inline;
+  margin: 0 5px 0 1px;
+  cursor: pointer;
+}

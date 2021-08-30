@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: capitalize;
+  background-color: blueviolet;
+  cursor: pointer;
+  font-size: medium;
+  padding: 10px;
+}
+.btn:active {
+  background-color: white;
+  color: blueviolet;
+}

@@ -1,0 +1,33 @@
+.container {
+  text-align: left;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+.inputFields {
+  margin: 15px 0;
+}
+.inputFields label {
+  display: block;
+}
+.inputFields input {
+  margin-top: 5px;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(184, 181, 181);
+  border-radius: 8px;
+  box-sizing: 1px 1px 1px rgb(206, 121, 121);
+  height: 25px;
+}
+
+.error {
+  color: white;
+  background-color: rgb(199, 103, 80);
+  text-align: center;
+  opacity: 1;
+}
